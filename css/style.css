@@ -56,7 +56,7 @@ footer{
     width: 100%;
     height: 120px;
     padding: 30px;
-    background-color: rgb(179, 179, 179);
+    background-color: rgba(170, 166, 157,1.0);
     background-image: url(../img/logo-web.png);
     background-position: left;
     background-repeat: no-repeat;
@@ -68,7 +68,8 @@ footer{
 .div-redes{
     float: right;
     font-size: smaller;
-    color: lemonchiffon;
+    color: white;
+    
 }
 
 .boton-volver{
