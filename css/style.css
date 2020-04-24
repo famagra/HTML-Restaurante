@@ -1,0 +1,82 @@
+
+#encabezado{
+    border-bottom: 1px solid grey
+}
+
+body{
+    margin: 50px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.float-left{
+    float: left;
+}
+
+#navegacion{
+    width: 25%;
+    
+}
+
+#contenido{
+    width: 65%;
+    margin-left: 1px;
+    border-left: 1px solid grey;
+}
+#div1{
+    padding: 20px;
+}
+
+h3{
+    padding-left: 10px;
+}
+
+.navegacion-menu{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.imagen-derecha{
+    float: right;
+    border: 2px solid grey;
+    
+    
+
+}
+.ul-navegacion{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    
+    
+}
+
+footer{
+    width: 100%;
+    height: 120px;
+    padding: 30px;
+    background-color: rgb(179, 179, 179);
+    background-image: url(../img/logo-web.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    clear: both;
+
+}
+
+.div-redes{
+    float: right;
+    font-size: smaller;
+    color: lemonchiffon;
+}
+
+.boton-volver{
+    text-decoration: none;
+    font-size: large;
+    
+}
+
+#main{
+    padding-top: 50px;
+}
