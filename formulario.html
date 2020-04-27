@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <p><label for="">¿DE DONDE SOS?</label></p>
+
+        <select name="Provincia" id="">
+            <option value="cba">CORDOBA</option>
+            <option value="bsa">BUENOS AIRES</option>
+            <option value="mza">MENDOZA</option>
+        </select>
+
+        <p><label for="iluminacion">¿QUE TE PARECIÓ LA ILUMINACIÓN?</label></p>
+        <input type="checkbox" name="iluminacion" value="bien"> MUY ACORDE <br>
+        <input type="checkbox" name="iluminacion" value="regular"> BUENA, PERO PODRIA MEJORAR <br>
+        <input type="checkbox" name="iluminacion" value="mala"> MALA <br>
+
+        <p><label for="comida">¿QUÉ TIPO DE PLATO FUE EL QUE MÁS TE GUSTÓ?</label></p>
+        <input type="checkbox" name="comida" value="entrada"> ENTRADA <br>
+        <input type="checkbox" name="comida" value="platoPrincipal"> PLATO PRINCIPAL <br>
+        <input type="checkbox" name="comida" value="postre"> POSTRE <br>
+        <input type="checkbox" name="comida" value="otro"> OTROS <br>
+
+        <p><label for="recomendacion">¿RECOMENDARÍAS ESTE LUGAR?</label></p>
+        <input type="radio" name="recomendacion" value="s" checked>SI
+        <input type="radio" name="recomendacion" value="n">NO
+
+        <p><label for="comentarios">¿POR QUÉ?</label></p>
+        <textarea name="comentarios" id="" cols="60" rows="10"></textarea>
+
+        <p><label for="">DEJANOS TUS DATOS Y NOS PONDREMOS EN CONTACTO CON VOS</label></p>
+        <label for="nombre">Nombre: </label>
+        <input type="text" id ="nombre" name="nombre"><br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id ="email" name="email"><br><br>
+
+        <button type="submit" value="ENVIAR">ENVIAR</button>
+        <button type="reset">RESETAR</button>
+
+
+    </form>
+</body>
+</html>
